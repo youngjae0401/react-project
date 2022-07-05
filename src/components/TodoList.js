@@ -5,8 +5,8 @@ import { useTodoState } from '../TodoContext';
 
 const TodoListBlock = styled.div`
     flex: 1;
-    padding: 20px 32px;
-    padding-bottom: 48px;
+    padding: 4% 8% 8%;
+    min-height: 380px;
     overflow-y: auto;
 `;
 

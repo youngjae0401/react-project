@@ -25,8 +25,10 @@ const CircleButton = styled.button`
     transform: translate(-50%, 50%);
     color: white;
     border-radius: 50%;
+    line-height: 50%;
     border: none;
     outline: none;
+    padding: 0;
 
     transition: 0.125s all ease-in;
     ${props =>
@@ -39,15 +41,20 @@ const CircleButton = styled.button`
             &:active {
                 background: #fa5252;
             }
-            transform: translate(-50%, 50%) rotate(45deg);
+            transform: translate(-50%, 50%) rotate(135deg);
         `}
+        
+    & > svg {
+        width: 80%;
+        height: 80%;
+    }
 `;
 
 const InsertFormPositioner = styled.div`
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
 `;
 
 const InsertForm = styled.form`
