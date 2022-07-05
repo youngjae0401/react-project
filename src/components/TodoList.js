@@ -7,6 +7,7 @@ const TodoListBlock = styled.div`
     flex: 1;
     padding: 4% 8% 8%;
     min-height: 380px;
+    max-height: 380px;
     overflow-y: auto;
 `;
 
